@@ -9,9 +9,18 @@ import SwiftUI
 
 @main
 struct DefaultBrowserSwitcherApp: App {
+    @State private var manager = BrowserManager()
+
     var body: some Scene {
-        WindowGroup {
-            ContentView()
+        MenuBarExtra("Default Browser Switcher", systemImage: "globe") {
+            ContentView(manager: manager)
         }
+        .menuBarExtraStyle(.menu)
+    }
+
+    init() {
+        let m = BrowserManager()
+        m.load()
+        _manager = State(initialValue: m)
     }
 }
