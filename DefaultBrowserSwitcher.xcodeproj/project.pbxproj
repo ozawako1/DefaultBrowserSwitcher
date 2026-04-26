@@ -6,8 +6,13 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		69CF8FA12F9D8DA300CA6763 /* 配布手順ガイド.md in Resources */ = {isa = PBXBuildFile; fileRef = 69CF8FA02F9D8DA300CA6763 /* 配布手順ガイド.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		69957A722F9C5555001CB558 /* DefaultBrowserSwitcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DefaultBrowserSwitcher.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		69CF8FA02F9D8DA300CA6763 /* 配布手順ガイド.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "配布手順ガイド.md"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -34,6 +39,7 @@
 			children = (
 				69957A742F9C5555001CB558 /* DefaultBrowserSwitcher */,
 				69957A732F9C5555001CB558 /* Products */,
+				69CF8FA02F9D8DA300CA6763 /* 配布手順ガイド.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -109,6 +115,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69CF8FA12F9D8DA300CA6763 /* 配布手順ガイド.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,10 +261,9 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = N635VGVU4X;
-				ENABLE_APP_SANDBOX = YES;
+				ENABLE_APP_SANDBOX = NO;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
-				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
@@ -287,10 +293,9 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = N635VGVU4X;
-				ENABLE_APP_SANDBOX = YES;
+				ENABLE_APP_SANDBOX = NO;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
-				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
